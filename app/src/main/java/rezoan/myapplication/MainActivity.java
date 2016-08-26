@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button mybutton=(Button)findViewById(R.id.mybutton);
 
+        assert mybutton != null;
         mybutton.setOnClickListener(
 
                 new Button.OnClickListener(){
